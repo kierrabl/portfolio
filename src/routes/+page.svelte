@@ -6,21 +6,23 @@
 
 <!-- Page Content -->
 <main class="min-h-screen bg-gray-200">
-  	<h1 class="text-4xl font-bold text-black">Kierra Blankespoor</h1>
 
-  	<div class="mt-6 space-x-4">
+  	<div class="pt-6 pr-6 min-h-screeen bg-gray-200 text-right">
 
-    	<button class="px-4 py-2 bg-transparent text-black rounded-lg shadow-md" on:click={() => navigate('about')}>
+    	<button class="px-4 py-2 bg-transparent font-['Quicksand', 'sans-serif'] text-black rounded-lg shadow-md" on:click={() => navigate('about')}>
       		About
     	</button>
 
-    	<button class="px-4 py-2 bg-transparent text-black rounded-lg shadow-md" on:click={() => navigate('experience')}>
+    	<button class="px-4 py-2 bg-transparent font-['Quicksand', 'sans-serif'] text-black rounded-lg shadow-md" on:click={() => navigate('experience')}>
      		Experience
     	</button>
 
-    	<button class="px-4 py-2 bg-transparent text-black rounded-lg shadow-md" on:click={() => navigate('projects')}>
+    	<button class="px-4 py-2 bg-transparent font-['Quicksand', 'sans-serif'] text-black rounded-lg shadow-md" on:click={() => navigate('projects')}>
       		Projects
     	</button>
 
   	</div>
+
+	<h1 class="mt-6 text-7xl font-['Lora',serif] font-bold text-black text-center">Kierra Blankespoor</h1>
+
 </main>

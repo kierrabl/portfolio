@@ -1,9 +1,12 @@
 export default {
+	content: ['./src/**/*.{html,svelte,ts,js}'],
 	theme: {
-		extend: {
-		  	fontFamily: {
-				script: ['Pacifico', 'static'], // Add your custom font
-		  	},
+	  extend: {
+		fontFamily: {
+		  heading: ['Lora', 'serif'],
+		  body: ['Quicksand', 'sans-serif'],
 		},
+	  },
 	},
+	plugins: [],
 };
