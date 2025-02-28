@@ -7,22 +7,27 @@
 <!-- Page Content -->
 <main class="min-h-screen bg-gray-200">
 
-  	<div class="pt-6 pr-6 min-h-screeen bg-gray-200 text-right">
+	<!-- Navbar Container -->
+	<div class="flex items-center justify-between p-4">
+		<!-- Logo -->
+		<img src="/logo.png" alt="K Logo" class="h-10 w-auto" />
+	
+		<!-- Button Group -->
+		<div class="flex space-x-6">
+		  <button class="px-4 py-2 bg-transparent font-['Quicksand', 'sans-serif'] text-black rounded-lg shadow-md" on:click={() => navigate('about')}>
+			About
+		  </button>
+	
+		  <button class="px-4 py-2 bg-transparent font-['Quicksand', 'sans-serif'] text-black rounded-lg shadow-md" on:click={() => navigate('experience')}>
+			Experience
+		  </button>
+	
+		  <button class="px-4 py-2 bg-transparent font-['Quicksand', 'sans-serif'] text-black rounded-lg shadow-md" on:click={() => navigate('projects')}>
+			Projects
+		  </button>
+		</div>
+	  </div>
 
-    	<button class="px-4 py-2 bg-transparent font-['Quicksand', 'sans-serif'] text-black rounded-lg shadow-md" on:click={() => navigate('about')}>
-      		About
-    	</button>
-
-    	<button class="px-4 py-2 bg-transparent font-['Quicksand', 'sans-serif'] text-black rounded-lg shadow-md" on:click={() => navigate('experience')}>
-     		Experience
-    	</button>
-
-    	<button class="px-4 py-2 bg-transparent font-['Quicksand', 'sans-serif'] text-black rounded-lg shadow-md" on:click={() => navigate('projects')}>
-      		Projects
-    	</button>
-
-  	</div>
-
-	<h1 class="mt-6 text-7xl font-['Lora',serif] font-bold text-black text-center">Kierra Blankespoor</h1>
+	<img src="/name.png" alt="Kierra Blankespoor" class="block mx-auto h-80 w-auto" />
 
 </main>
